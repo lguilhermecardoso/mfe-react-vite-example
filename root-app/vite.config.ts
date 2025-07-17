@@ -24,6 +24,7 @@ export default defineConfig(({ mode }) => {
   };
 
   return {
+    base: '/mfe-react-vite-example/',
     plugins: [
       react(),
       tailwindcss(),
