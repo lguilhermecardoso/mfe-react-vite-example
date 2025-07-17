@@ -22,12 +22,12 @@
 
 ## 🟡 **Dashboard (mf-dashboard)**
 - [x] Criar microfrontend do Dashboard
-- [ ] Receber e validar token do usuário
-- [ ] Exibir dados iniciais (placeholder)
-- [ ] Integrar com API Rick and Morty para listar personagens
-- [ ] Implementar lista de cards de personagens com scroll infinito
-- [ ] Permitir clicar em um card para visualizar detalhes no mf-personagem-detalhe
-- [ ] Preparar estrutura para futuras features
+- [x] Receber e validar token do usuário
+- [x] Exibir dados iniciais (placeholder)
+- [x] Integrar com API Rick and Morty para listar personagens
+- [x] Implementar lista de cards de personagens com scroll infinito
+- [x] Permitir clicar em um card para visualizar detalhes no mf-personagem-detalhe
+- [x] Preparar estrutura para futuras features
 
 ---
 
