@@ -20,6 +20,8 @@ export default defineConfig({
     port: 5004,
   },
   build: {
+    outDir: '../dist/mf-personagem-detalhe',
+    emptyOutDir: false,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {

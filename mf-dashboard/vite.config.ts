@@ -20,6 +20,8 @@ export default defineConfig({
     port: 5003,
   },
   build: {
+     outDir: '../dist/mf-dashboard',
+    emptyOutDir: false ,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {

@@ -20,6 +20,8 @@ export default defineConfig({
     port: 5002,
   },
   build: {
+    outDir: '../dist/mf-navbar',
+    emptyOutDir: false ,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {

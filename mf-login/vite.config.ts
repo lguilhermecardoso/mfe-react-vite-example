@@ -20,6 +20,8 @@ export default defineConfig({
     port: 5001,
   },
   build: {
+    outDir: '../dist/mf-login',
+    emptyOutDir: false ,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
