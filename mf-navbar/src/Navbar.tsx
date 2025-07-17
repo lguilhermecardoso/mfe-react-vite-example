@@ -109,10 +109,10 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
             </svg>
           </button>
           <nav className="mt-8 space-y-4">
-            <a href="mfe-react-vite-example/#/dashboard" className="block text-gray-900 font-medium hover:text-blue-600">
+            <a href="#/dashboard" className="block text-gray-900 font-medium hover:text-blue-600">
               Dashboard
             </a>
-            <a href="mfe-react-vite-example/#/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
+            <a href="#/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
               Sobre o projeto
             </a>
             <a
