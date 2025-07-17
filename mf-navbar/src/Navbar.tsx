@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 type NavbarProps = {
   user: {
@@ -112,9 +113,9 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
             <a href="/dashboard" className="block text-gray-900 font-medium hover:text-blue-600">
               Dashboard
             </a>
-            <a href="/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
+            <Link href="/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
               Sobre o projeto
-            </a>
+            </Link>
             <a
               href="https://github.com/SEU_REPOSITORIO"
               target="_blank"
