@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 type NavbarProps = {
   user: {
@@ -110,14 +109,14 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
             </svg>
           </button>
           <nav className="mt-8 space-y-4">
-            <a href="/dashboard" className="block text-gray-900 font-medium hover:text-blue-600">
+            <a href="#/dashboard" className="block text-gray-900 font-medium hover:text-blue-600">
               Dashboard
             </a>
-            <Link href="/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
+            <a href="#/sobre" className="block text-gray-900 font-medium hover:text-blue-600">
               Sobre o projeto
-            </Link>
+            </a>
             <a
-              href="https://github.com/SEU_REPOSITORIO"
+              href="https://github.com/lguilhermecardoso/mfe-react-vite-example"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-gray-900 font-medium hover:text-blue-600"
