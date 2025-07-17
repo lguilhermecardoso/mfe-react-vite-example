@@ -20,4 +20,6 @@ cd mf-personagem-detalhe && npm install && npm run build && cd ..
 echo "Buildando root-app..."
 cd root-app && npm install && npm run build && cd ..
 
+cp -R dist/root-app/* dist/
+
 echo "Build finalizado!"
